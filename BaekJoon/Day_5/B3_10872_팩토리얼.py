@@ -1,5 +1,5 @@
 N = int(input())
-result = 0
+
 
 def fact(n):
     if n > 1:
