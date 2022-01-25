@@ -7,4 +7,7 @@ for i in range(1,10):
     # 'N * i = N*i' 라고 출력되어야 하므로
     # 문자열 포매팅을 사용해
     # N과 i 포매팅, N*i를 포매팅 후 출력
-    print('{} * {} = '.format(N, i) + '{}'.format(N * i))
+    print('{} * {} = {}'.format(N, i, N*i))
+
+    ### WOW!!
+    ### 찢었다
