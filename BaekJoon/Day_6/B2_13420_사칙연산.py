@@ -1,5 +1,7 @@
 T = int(input())
 
+# 정정당당하게 풀었다
+
 for a in range(T):
     M = input()
     M_list = M.split()
