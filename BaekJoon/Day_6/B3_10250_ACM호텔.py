@@ -4,7 +4,7 @@ T = int(input())
 # 테스트 케이스의 수 만큼 반복
 for TC in range(T):
     # H = 층수, W = 방의 수, N = 번째 손님
-    H, W, N = map(int, input().split(' '))
+    H, W, N = map(int, input().split())
 
     # 어떻게 풀거냐면
     # 어차피 순서 101 201 301 401 이런식으로 갈거니까
@@ -34,8 +34,8 @@ for TC in range(T):
         room += room_w
         # 그다음 층수 반복문 돌려서 순회해줌
         for h in range(H):
-            # room에 호수 저장
-            room = room_w
+            # room에 호수 초기화
+            # room = room_w
             # room_h에 순회돌린 값 + 1 할당해줌
             # range로 돌리면 0층부터 돌아가니까
             room_h = str(h+1)

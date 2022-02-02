@@ -20,7 +20,8 @@ while True:
     N = N[-1] + added[-1]
     count += 1
 
-    if N == n:
+    # 01이랑 1은 다르다 상균아
+    if int(N) == int(n):
         print(count)
         break
 

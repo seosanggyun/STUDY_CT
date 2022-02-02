@@ -1,7 +1,7 @@
 ## 테스트 케이스의 개수 입력받음
 T = int(input())
 ## 반복횟수 R과 문자열 S를 문자열로 입력받음
-R, S = map(str, input().split(' '))
+R, S = input().split()
 ## 반복횟수 R을 정수로 형변환 후 저장
 R = int(R)
 

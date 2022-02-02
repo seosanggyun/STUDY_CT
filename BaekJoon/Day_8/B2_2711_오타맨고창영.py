@@ -5,7 +5,7 @@ T = int(input())
 for TC in range(T):
 
     # 정보 입력 받음
-    Info = input().split(' ')
+    Info = input().split()
     # 오타를 낸 위치를 정수로 저장
     order = int(Info[0])
 
