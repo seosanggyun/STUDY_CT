@@ -31,7 +31,7 @@ for a_yak in a_list:
 # 최소 공배수는
 # A를 최대공약수로 나눈 값에 B를 곱하면 나옴
 # 경험적 추론
-bae = round((A / yak) * B)
+bae = ((A // yak) * B)
 
 
 
