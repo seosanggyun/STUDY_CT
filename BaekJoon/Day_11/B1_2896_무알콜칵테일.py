@@ -23,10 +23,10 @@ j_min = min(j_list)
 # 칵테일이 만들어질테고
 # 남는 쥬스의 양은 결국
 # 원래 있던 양에서 가장 양이 적은 쥬스의 양을 뺀 값
-if I == J == K:
-    for aoj in j_list:
-        aoj = aoj - j_min
-        print(aoj, end=' ')
+# if I == J == K:
+#     for aoj in j_list:
+#         aoj = aoj - j_min
+#         print(aoj, end=' ')
 
 # 그 외의 경우
 #
@@ -42,10 +42,10 @@ if I == J == K:
 # 쥬스의 양을 비율로 나눈 값 중 가장 작은 값임
 # 두번 만들고 남은 쥬스의 양이 곧 정답
 # 즉 cylce 이라는 변수에          
-else:
-    cycle = min(A/I, B/J, C/K)
+# else:
+cycle = min(A/I, B/J, C/K)
     # 쥬스의 양을 비율로 나눈 값 중 가장 작은 값을 넣고
-    print(A - (I * cycle), B - (J * cycle), C - (K * cycle))
+print(A - (I * cycle), B - (J * cycle), C - (K * cycle))
     # 쥬스의 양에서 비율 * cycle을 빼준 값이 정답
 
 # 그런데 비율로 받은 값이 6 4 2 와 같이 서로소가 아닐 경우도
