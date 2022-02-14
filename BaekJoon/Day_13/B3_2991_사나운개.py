@@ -4,10 +4,10 @@
 A, B, C, D = map(int, input().split())
 
 # 트리오의 도착시간 입력받음
-P, M, N = map(int, input().split())
+arrival_list = list(map(int, input().split()))
 
 # 도착시간을 리스트로 저장
-arrival_list = [P, M, N]
+
 
 # 댕1의 패턴 총 시간 저장
 d1c = A + B
