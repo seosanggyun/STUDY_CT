@@ -7,9 +7,9 @@ K = int(input())
 # 세로로 R개의 좌석 = R개의 행
 # 좌석들을 둘러싸는 1로 이루어진 테두리도 설정
 seats = []
-seats.append([1]*(C+2))
-seats += [[1] + [0] * C + [1] for _ in range(R)]
-seats.append([1]*(C+2))
+seats.append([-1]*(C+2))
+seats += [[-1] + [0] * C + [-1] for _ in range(R)]
+seats.append([-1]*(C+2))
 
 # 맨처음 시작할 때 방향
 flag = 1
@@ -89,12 +89,7 @@ else:
     # 맞춰 주려면
     # i와 j 순서를 바꾸어서 출력해야 하고
     # i대신 R-i+1을 해야
-    # 정답이 나옴
-    # 
-    # 
-    # 
-    # 
-    # 정답 나오잖아 왜!!!!!!!!!!!        
+    # 정답이 나옴     
     for i in range(R+2):
         for j in range(C+2):
             if seats[i][j] == K:
@@ -102,6 +97,6 @@ else:
                 print(R-i+1)
         
     
-# pprint(seats)
+pprint(seats)
 
 

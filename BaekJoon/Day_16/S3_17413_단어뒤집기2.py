@@ -26,47 +26,6 @@
 # print(''.join(word))
 
 
-# # 입력받은 문자열 순회
-# for i in words:
-#     # <가 등장한다면
-#     if i == '<':
-#         # flag를 True로 바꾸고
-#         flag = False
-#         # 이전까지 tmp_word에 저장되어 있던 값을 result에 저장
-#         result += tmp_word
-#         # 그리고 tmp_word에 < 저장
-#         tmp_word = i
-
-
-#     # >가 등장한다면
-#     elif i == '>':
-#         # flag를 False로 바꾸고
-#         flag = True
-#         # 이전까지 저장되어 있던 값에 >를 붙여서 result에 저장
-#         result += (tmp_word + '>')
-#         # tmp_word 비우기
-#         tmp_word = ''
-
-#     # flag가 False라면
-#     # 즉, <> 안의 문자열이라면
-#     elif flag:
-#         # tmp_word에 순서를 바꾸지 않고 저장
-#         tmp_word = i + tmp_word
-#     # 공백이 등장한다면
-#     elif i == ' ':
-#         # 공백 이전의 값들에 공백을 더해서 result에 저장
-#         result += tmp_word + i
-#         # tmp_word 비우기
-#         tmp_word = ''
-
-#     # 그 외의 경우, 즉 일반 문자열이 등장한다면
-#     else:
-#         # tmp_word에 한글자씩 저장, 즉 역순으로 저장이 됨
-#         tmp_word += i
-
-# # 로직이 끝난 뒤에 tmp_word에 값이 있으면 result에 저장
-# result += tmp_word
-# print(result)
 
 
 # 문자열을 리스트로 입력 받아줌

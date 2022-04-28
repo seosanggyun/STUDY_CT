@@ -15,7 +15,7 @@
 # 둘 다에 그냥 더해줄거임.
 
 # 두 수를 입력받음
-n = list(map(str, input().split()))
+n = list(input().split())
 
 # 최댓값 최솟값 초기화
 sum_n_max = 0
